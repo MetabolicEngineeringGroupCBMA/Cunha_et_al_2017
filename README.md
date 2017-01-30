@@ -5,7 +5,7 @@ These files accompany the publication "Towards superior yeast for 2G ethanol: HA
 boosts xylose consumption in the presence of lignocellulosic-derived inhibitors 
 Joana T Cunha, Luis Ferraz, Aloia Romanía, Carlos E Costa, Isabel Sá-Correia, Björn Johansson and Lucília Domingues.
 
-Start [here](index.ipynb) 
+Start through nbviewer [here](http://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/blob/master/index.ipynb) or directly in Github [here](index.ipynb) 
 
 If you would like to have your own copy of this repository, the best solution is to get a 
 Github account and then make your own fork. If you would like to download all files to your 
