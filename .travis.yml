@@ -1,0 +1,4 @@
+script:
+ - bash ci.sh
+notifications:
+  email: false
