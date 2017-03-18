@@ -6,8 +6,8 @@ rm Miniconda_latest.sh
 
 conda config --set always_yes yes --set show_channel_urls yes
 conda update -q conda
-conda config --add channels BjornFJohansson
 conda env create -f environment.yml
+source activate mybinder_pydna
 conda create -n testenv python=3.5 pydna nbval pytest lxml requests
 
 python run_test.py
