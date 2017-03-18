@@ -7,4 +7,3 @@ dependencies:
 - pydna
 - pygenome
 - lxml
-- pytest
