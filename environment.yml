@@ -2,6 +2,7 @@ name: mybinder_pydna
 channels:
 - defaults
 - BjornFJohansson
+- conda-forge
 dependencies:
 - python=3.5
 - pydna
