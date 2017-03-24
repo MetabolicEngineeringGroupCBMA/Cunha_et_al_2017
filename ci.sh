@@ -8,8 +8,10 @@ conda config --set always_yes yes --set show_channel_urls yes
 conda update -q conda
 conda env create -n test -f environment.yml
 source activate test
-conda install nbval pytest lxml requests
-
+conda install nbval
+conda install ppytest
+conda install plxml
+conda install prequests
 conda list
 
 #python run_test.py
