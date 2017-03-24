@@ -10,4 +10,6 @@ conda env create -n test -f environment.yml
 source activate test
 conda install nbval pytest lxml requests
 
-python run_test.py
+conda list
+
+#python run_test.py
