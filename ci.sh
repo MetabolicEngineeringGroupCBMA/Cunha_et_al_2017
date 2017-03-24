@@ -10,7 +10,7 @@ conda config --add channels BjornFJohansson
 conda env create -n test -f environment.yml
 source activate test
 conda info
-conda install pydna nbval pytest lxml requests
+conda install nbval pytest lxml requests
 conda list
 
 python run_test.py
