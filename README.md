@@ -10,6 +10,10 @@ Github account and then make your own fork. If you would like to download all fi
 computer as a zip file, Click [here](https://github.com/BjornFJohansson/Cunha_et_al_2017/archive/master.zip)
 
 
+[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017.svg?branch=master)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017)
+
+
+
 
 
 

@@ -3,6 +3,9 @@
 import pytest
 import os
 import pathlib
+import sys
+
+exit_=0
 
 thisdir = os.path.dirname(os.path.realpath(__file__))
 
@@ -13,8 +16,9 @@ for dirpath, dirnames, filenames in os.walk(thisdir):
         p = pathlib.Path(os.path.join(dirpath, file_))
         if any( [f for f in p.parts if f.startswith(("_","."))] ): continue    
         os.chdir(dirpath)
-        pytest.cmdline.main( [file_,"--verbose", "--capture=no", "--nbval"] )
+        exit_+=pytest.cmdline.main( [file_,"--verbose", "--capture=no", "--nbval"] )
 print("run_test.py finished.")
+sys.exit(exit_)
 
 
 
