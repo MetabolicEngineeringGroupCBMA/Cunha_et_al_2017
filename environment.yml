@@ -1,6 +1,5 @@
 name: mybinder_pygenome
 channels:
-- defaults
 - BjornFJohansson
 - conda-forge
 dependencies:
