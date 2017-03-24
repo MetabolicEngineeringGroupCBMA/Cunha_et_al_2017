@@ -6,11 +6,8 @@ rm Miniconda_latest.sh
 
 conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
 conda update conda
-conda config --add channels BjornFJohansson
 conda env create -n test -f environment.yml
 source activate test
-conda info
 conda install nbval pytest lxml requests
-conda list
 
 python run_test.py
