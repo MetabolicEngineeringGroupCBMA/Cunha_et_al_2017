@@ -14,4 +14,4 @@ conda install plxml
 conda install prequests
 conda list
 
-#python run_test.py
+python run_test.py
