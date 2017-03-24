@@ -6,8 +6,8 @@ rm Miniconda_latest.sh
 
 conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
 conda update conda
-conda env create -n test -f environment.yml
-source activate test
-conda install nbval pytest lxml requests
+conda env create -f environment.yml
+source activate mybinder_pygenome
+conda install nbval pytest
 
 python run_test.py

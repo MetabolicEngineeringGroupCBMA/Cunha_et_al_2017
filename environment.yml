@@ -1,4 +1,4 @@
-name: mybinder_pydna
+name: mybinder_pygenome
 channels:
 - defaults
 - BjornFJohansson
