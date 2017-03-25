@@ -1,7 +1,8 @@
 name: mybinder_pygenome
 channels:
-- BjornFJohansson
-- conda-forge
+  - defaults
+  - BjornFJohansson
+  - conda-forge
 dependencies:
 - python=3.5
 - pydna
