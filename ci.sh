@@ -6,13 +6,13 @@ then
     bash Miniconda_latest.sh -b -p $HOME/miniconda  
     export PATH="$HOME/miniconda/bin:$PATH"
     rm Miniconda_latest.sh
+    conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
+    conda config --add channels BjornFJohansson
+    conda config --add channels conda-forge
 else
     echo "Not running on CI server"
 fi
 
-conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
-conda config --add channels BjornFJohansson
-conda config --add channels conda-forge
 #conda update conda
 conda --version
 conda env create -f environment.yml
@@ -23,8 +23,10 @@ conda install nbval pytest
 python run_test.py
 
 
-if [[ $CI != true ]]||[[ $CI != True ]]
+if [[ $CI = true ]]||[[ $CI = True ]]
 then
+    echo "Running on CI server"
+else
     echo "Not running on CI server"
     source activate bjorn3
     conda remove --all -n mybinder_pygenome
