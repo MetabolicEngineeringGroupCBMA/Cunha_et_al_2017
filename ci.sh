@@ -11,6 +11,8 @@ else
 fi
 
 conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
+conda config --add channels BjornFJohansson
+conda config --add channels conda-forge
 #conda update conda
 conda --version
 conda env create -f environment.yml
