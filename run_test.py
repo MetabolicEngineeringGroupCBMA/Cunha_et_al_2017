@@ -22,7 +22,3 @@ for dirpath, dirnames, filenames in os.walk(thisdir):
 print("run_test.py finished with exit code {}".format(exit_))
 
 sys.exit(exit_)
-
-
-
-
