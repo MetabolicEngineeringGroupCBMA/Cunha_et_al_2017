@@ -6,7 +6,8 @@ then
     bash Miniconda_latest.sh -b -p $HOME/miniconda  
     export PATH="$HOME/miniconda/bin:$PATH"
     rm Miniconda_latest.sh
-    conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
+    conda update --yes -q conda
+    conda config --set always_yes yes --set show_channel_urls yes
     conda config --add channels BjornFJohansson
     conda config --add channels conda-forge
 else
