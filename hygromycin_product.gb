@@ -1,0 +1,76 @@
+LOCUS       1936bp_PCR_prod         1936 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  pcr product_807_pYPK0_hygfwd2_806_pYPK0_hygrev2.
+ACCESSION   1936bp 4rAsD5THNDLzSuR9YQMe-XeENDM
+VERSION     1936bp 4rAsD5THNDLzSuR9YQMe-XeENDM
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     51..71
+                     /label="807_pYPK0_hygfwd2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        166..533
+                     /product="TEF-PRO"
+                     /gene="TEF-PRO"
+                     /label="TEF-PRO"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             534..1562
+                     /product="hygromycin B phosphotransferase"
+                     /gene="hph"
+                     /label="hygromycin B phosphotransferase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      1563..1802
+                     /product="TEF-TER"
+                     /gene="TEF-TER"
+                     /label="TEF-TER"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(1868..1886)
+                     /label="806_pYPK0_hygrev2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+ORIGIN
+        1 tctgacgctc agtggaacga aaactcacgt taagggattt tggtcatgag cacatacgat
+       61 ttaggtgaca ctatagaacg cggccgccag ctgaagcttc gtacgctgca ggtcgacgga
+      121 tccccgggtt aattaaggcg cgccagatct gtttagcttg ccttgtcccc gccgggtcac
+      181 ccggccagcg acatggaggc ccagaatacc ctccttgaca gtcttgacgt gcgcagctca
+      241 ggggcatgat gtgactgtcg cccgtacatt tagcccatac atccccatgt ataatcattt
+      301 gcatccatac attttgatgg ccgcacggcg cgaagcaaaa attacggctc ctcgctgcag
+      361 acctgcgagc agggaaacgc tcccctcaca gacgcgttga attgtcccca cgccgcgccc
+      421 ctgtagagaa atataaaagg ttaggatttg ccactgaggt tcttctttca tatacttcct
+      481 tttaaaatct tgctaggata cagttctcac atcacatccg aacataaaca accatgggta
+      541 aaaagcctga actcaccgcg acgtctgtcg agaagtttct gatcgaaaag ttcgacagcg
+      601 tctccgacct gatgcagctc tcggagggcg aagaatctcg tgctttcagc ttcgatgtag
+      661 gagggcgtgg atatgtcctg cgggtaaata gctgcgccga tggtttctac aaagatcgtt
+      721 atgtttatcg gcactttgca tcggccgcgc tcccgattcc ggaagtgctt gacattgggg
+      781 aattcagcga gagcctgacc tattgcatct cccgccgtgc acagggtgtc acgttgcaag
+      841 acctgcctga aaccgaactg cccgctgttc tgcagccggt cgcggaggcc atggatgcga
+      901 tcgctgcggc cgatcttagc cagacgagcg ggttcggccc attcggaccg caaggaatcg
+      961 gtcaatacac tacatggcgt gatttcatat gcgcgattgc tgatccccat gtgtatcact
+     1021 ggcaaactgt gatggacgac accgtcagtg cgtccgtcgc gcaggctctc gatgagctga
+     1081 tgctttgggc cgaggactgc cccgaagtcc ggcacctcgt gcacgcggat ttcggctcca
+     1141 acaatgtcct gacggacaat ggccgcataa cagcggtcat tgactggagc gaggcgatgt
+     1201 tcggggattc ccaatacgag gtcgccaaca tcttcttctg gaggccgtgg ttggcttgta
+     1261 tggagcagca gacgcgctac ttcgagcgga ggcatccgga gcttgcagga tcgccgcggc
+     1321 tccgggcgta tatgctccgc attggtcttg accaactcta tcagagcttg gttgacggca
+     1381 atttcgatga tgcagcttgg gcgcagggtc gatgcgacgc aatcgtccga tccggagccg
+     1441 ggactgtcgg gcgtacacaa atcgcccgca gaagcgcggc cgtctggacc gatggctgtg
+     1501 tagaagtact cgccgatagt ggaaaccgac gccccagcac tcgtccgagg gcaaaggaat
+     1561 aatcagtact gacaataaaa agattcttgt tttcaagaac ttgtcatttg tatagttttt
+     1621 ttatattgta gttgttctat tttaatcaaa tgttagcgtg atttatattt tttttcgcct
+     1681 cgacatcatc tgcccagatg cgaagttaag tgcgcagaaa gtaatatcat gcgtcaatcg
+     1741 tatgtgaatg ctggtcgcta tactgctgtc gattcgatac taacgccgcc atccagtgtc
+     1801 gaaaacgagc tcgaattcat cgatgatatc agatccacta gtggcctatg cggccgcgga
+     1861 tctgccggtc tccctatagt gagtcgagct tatcgatgat aagctgtcaa agatgagaat
+     1921 taattccacg gactat
+//
