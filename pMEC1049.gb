@@ -1,57 +1,89 @@
-LOCUS       pMEC1049               15488 bp    DNA     circular UNK 30-JAN-2017
-DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M_2017-01-30T10:34:14.577335
-ACCESSION   id?
-VERSION     id?
-DBLINK      BioProject:PRJNA43747
-            BioProject:PRJNA128 BioProject:PRJNA43747
-            BioProject:PRJNA43747 BioProject:PRJNA128
+LOCUS       pMEC1049               12862 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  cSEGUID_U40E0WHDM9c-N_-keYyXv9p-qqo_2019-05-17T15:30:49.041522.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     misc            531..560
-                     /label="417_ScTEF1tpf"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          538..1116
-                     /chromosome="XVI"
-                     /db_xref="taxon:559292"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /strain="S288c"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XVI"
      primer_bind     538..560
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="417_ScTEF1tpf"
-     primer_bind     complement(1089..1116)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="626_ScTEF1tpr_PacI"
-     misc            complement(1089..1123)
-                     /label="626_ScTEF1tpr_PacI"
-     primer_bind     1164..1189
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="XR_YPK_rec_fwd"
-     CDS             1164..2120
-                     /label="PsXYL1_N272D"
-     misc            2510..2539
                      /label="417_ScTEF1tpf"
-     primer_bind     2517..2539
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="417_ScTEF1tpf"
-     primer_bind     complement(2832..2864)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="623_ScTDH3tpr_PacI"
-     misc            complement(2832..2864)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1089..1116)
+                     /label="626_ScTEF1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1164..1189
+                     /label="XR_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2095..2120)
+                     /label="XR_YPK_rec_rev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2124..2143
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2124..2143
+                     /label="PsXYL1_N272D"
+     primer_bind     2153..2181
+                     /label="415_ScTDH3tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          2160..2857
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="genomic DNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="VII"
+     primer_bind     2160..2181
+                     /label="415_ScTDH3tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          2160..2857
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="genomic DNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="VII"
+     primer_bind     2160..2181
+                     /label="415_ScTDH3tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2832..2857)
                      /label="623_ScTDH3tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2832..2864)
+                     /label="623_ScTDH3tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2832..2857)
+                     /label="623_ScTDH3tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      CDS             2905..3996
                      /codon_start=1
-                     /db_xref="GI:640922"
+                     /transl_table=12
                      /product="xylitol dehydrogenase"
                      /protein_id="CAA01269.1"
-                     /transl_table=12
                      /translation="MTANPSLVLNKIDDISFETYDAPEISEPTDVLVQVKKTGICGSDI
                      HFYAHGRIGNFVLTKPMVLGHESAGTVVQVGKGVTSLKVGDNVAIEPGIPSRFSDEYKS
                      GHYNLCPHMAFAATPNSKEGEPNPPGTLCKYFKSPEDFLVKLPDHVSLELGALVEPLSV
@@ -60,55 +92,138 @@ FEATURES             Location/Qualifiers
                      SFPITVFAMKELTLFGSFRYGFNDYKTAVGIFDTNYQNGRENAPIDFEQLITHRYKFKD
                      AIEAYDLVRAGKGAVKCLIDGPE"
      primer_bind     2905..2928
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="XDH_YPK_rec_fwd"
+                     /label="XDH_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3973..3996)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="XDH_YPK_rec_rev"
-     misc            complement(3973..4034)
                      /label="XDH_YPK_rec_rev"
-     primer_bind     4035..4053
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="pfw1000"
-     primer_bind     complement(5014..5041)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="622_ScPGI1tpr_PacI"
-     misc            complement(5014..5041)
-                     /label="622_ScPGI1tpr_PacI"
-     primer_bind     complement(5017..5034)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="prv1000"
-     misc            complement(5017..5041)
-                     /label="PGIrv"
-     source          5082..6884
-                     /chromosome="VII"
-                     /db_xref="taxon:559292"
-                     /mol_type="mRNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /strain="S288c"
-     gene            <5082..>6884
-                     /db_xref="GeneID:853108"
-                     /gene="XKS1"
-                     /locus_tag="YGR194C"
-     CDS             5082..6884
-                     /EC_number="2.7.1.17"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     4000..4019
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     4029..4055
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     4035..4055
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     4035..4055
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            4305..4409
+                     /locus_tag="YBR196C-B"
+     mRNA            4305..4409
+                     /locus_tag="YBR196C-B"
+                     /product="hypothetical protein"
+     CDS             4305..4409
+                     /locus_tag="YBR196C-B"
+                     /note="hypothetical protein; identified by expression
+                     profiling and mass spectrometry; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
                      /codon_start=1
-                     /db_xref="GI:398366095"
-                     /db_xref="SGD:S000003426"
-                     /db_xref="GeneID:853108"
+                     /product="hypothetical protein"
+                     /protein_id="DAA07312.1"
+                     /db_xref="SGD:S000028816"
+                     /translation="MWVVLSKEKILLKKAYYAKTILFSALVLRGVRGE"
+     gene            4305..4409
+                     /locus_tag="YBR196C-B"
+     mRNA            4305..4409
+                     /locus_tag="YBR196C-B"
+                     /product="hypothetical protein"
+     CDS             4305..4409
+                     /locus_tag="YBR196C-B"
+                     /note="hypothetical protein; identified by expression
+                     profiling and mass spectrometry; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07312.1"
+                     /db_xref="SGD:S000028816"
+                     /translation="MWVVLSKEKILLKKAYYAKTILFSALVLRGVRGE"
+     gene            4762..4911
+                     /locus_tag="YBR196C-A"
+     mRNA            4762..4911
+                     /locus_tag="YBR196C-A"
+                     /product="hypothetical protein"
+     CDS             4762..4911
+                     /locus_tag="YBR196C-A"
+                     /note="hypothetical protein; identified by fungal homology
+                     and RT-PCR; GO_component: GO:0005575 - cellular_component
+                     [Evidence ND]; GO_component: GO:0016021 - integral
+                     component of membrane [Evidence IEA]; GO_component:
+                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
+                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
+                     GO:0008150 - biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07311.1"
+                     /db_xref="SGD:S000028534"
+                     /translation="MSRVYIYPLTVFYFFAIEMSVFCYYNWFYRRNFPYLFRPIFPFLI
+                     VLIS"
+     gene            4762..4911
+                     /locus_tag="YBR196C-A"
+     mRNA            4762..4911
+                     /locus_tag="YBR196C-A"
+                     /product="hypothetical protein"
+     CDS             4762..4911
+                     /locus_tag="YBR196C-A"
+                     /note="hypothetical protein; identified by fungal homology
+                     and RT-PCR; GO_component: GO:0005575 - cellular_component
+                     [Evidence ND]; GO_component: GO:0016021 - integral
+                     component of membrane [Evidence IEA]; GO_component:
+                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
+                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
+                     GO:0008150 - biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07311.1"
+                     /db_xref="SGD:S000028534"
+                     /translation="MSRVYIYPLTVFYFFAIEMSVFCYYNWFYRRNFPYLFRPIFPFLI
+                     VLIS"
+     primer_bind     complement(5014..5034)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(5014..5041)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(5014..5034)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          5082..6884
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="mRNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="VII"
+     gene            5082..6884
                      /gene="XKS1"
                      /locus_tag="YGR194C"
+                     /db_xref="GeneID:853108"
+     CDS             5082..6884
+                     /gene="XKS1"
+                     /locus_tag="YGR194C"
+                     /EC_number="2.7.1.17"
                      /note="Xylulokinase; converts D-xylulose and ATP to
                      xylulose 5-phosphate and ADP; rate limiting step in
                      fermentation of xylulose; required for xylose fermentation
                      by recombinant S. cerevisiae strains"
+                     /codon_start=1
                      /product="xylulokinase"
                      /protein_id="NP_011710.3"
+                     /db_xref="GeneID:853108"
+                     /db_xref="SGD:S000003426"
                      /translation="MLCSVIQRQTREVSNTMSLDSYYLGFDLSTQQLKCLAINQDLKIV
                      HSETVEFEKDLPHYHTKKGVYIHGDTIECPVAMWLEALDLVLSKYREAKFPLNKVMAVS
                      GSCQQHGSVYWSSQAESLLEQLNKKPEKDLLHYVSSVAFARQTAPNWQDHSTAKQCQEF
@@ -121,63 +236,78 @@ FEATURES             Location/Qualifiers
                      QVIGATKGNFRLETPNSCALGGCYKAMWSLLYDSNKIAVPFDKFLNDNFPWHVMESISD
                      VDNENWDRYNSKIVPLSELEKTLI"
      primer_bind     5082..5104
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="XX_YPK_rec_fwd"
+                     /label="XX_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(6861..6884)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="XK_YPK_rec_rev"
-     misc            complement(6861..6922)
                      /label="XK_YPK_rec_rev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     6888..6907
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     6917..6953
+                     /label="409_ScFBA1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          6924..7553
-                     /chromosome="XI"
-                     /db_xref="taxon:559292"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /strain="S288c"
-     primer_bind     6924..6953
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="409_ScFBA1tpf"
-     primer_bind     complement(7532..7553)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="624_ScFBA1tpr_PacI"
-     misc            complement(7532..7560)
-                     /label="624_ScFBA1tpr_PacI"
-     primer_bind     complement(7532..7560)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="624_ScFBA1tpr_PacI"
-     misc            complement(7532..7560)
-                     /label="624_ScFBA1tpr_PacI"
-     source          7601..8608
-                     /chromosome="XII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="XI"
+     primer_bind     6924..6953
+                     /label="409_ScFBA1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          6924..7553
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="genomic DNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XI"
+     primer_bind     6924..6953
+                     /label="409_ScFBA1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(7532..7553)
+                     /label="624_ScFBA1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(7532..7560)
+                     /label="624_ScFBA1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(7532..7553)
+                     /label="624_ScFBA1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          7601..8608
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="mRNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /strain="S288c"
-     gene            <7601..>8608
-                     /db_xref="GeneID:851068"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XII"
+     gene            7601..8608
                      /gene="TAL1"
                      /locus_tag="YLR354C"
+                     /db_xref="GeneID:851068"
      CDS             7601..8608
-                     /EC_number="2.2.1.2"
-                     /codon_start=1
-                     /db_xref="GI:6323386"
-                     /db_xref="SGD:S000004346"
-                     /db_xref="GeneID:851068"
                      /gene="TAL1"
                      /locus_tag="YLR354C"
+                     /EC_number="2.2.1.2"
                      /note="Transaldolase, enzyme in the non-oxidative pentose
                      phosphate pathway; converts sedoheptulose 7-phosphate and
                      glyceraldehyde 3-phosphate to erythrose 4-phosphate and
                      fructose 6-phosphate; TAL1 has a paralog, NQM1, that arose
                      from the whole genome duplication"
+                     /codon_start=1
                      /product="sedoheptulose-7-phosphate:D-glyceraldehyde-3-
                      phosphate transaldolase TAL1"
                      /protein_id="NP_013458.1"
+                     /db_xref="GeneID:851068"
+                     /db_xref="SGD:S000004346"
                      /translation="MSEPAQKKQKVANNSLEQLKASGTVVVADTGDFGSIAKFQPQDST
                      TNPSLILAAAKQPTYAKLIDVAVEYGKKHGKTTEEQVENAVDRLLVEFGKEILKIVPGR
                      VSTEVDARLSFDTQATIEKARHIIKLFEQEGVSKERVLIKIASTWEGIQAAKELEEKDG
@@ -185,89 +315,73 @@ FEATURES             Location/Qualifiers
                      NYYKKYGYKTIVMGASFRSTDEIKNLAGVDYLTISPALLDKLMNSTEPFPRVLDPVSAK
                      KEAGDKISYISDESKFRFDLNEDAMATEKLSEGIRKFSADIVTLFDLIEKKVTA"
      primer_bind     7601..7623
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="TAL1_YPK_rec_fwd"
+                     /label="TAL1_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(8583..8608)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="TAL1_YPK_rec_rev"
-     misc            complement(8583..8646)
                      /label="TAL1_YPK_rec_rev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     8612..8631
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          8648..9602
-                     /chromosome="XII"
-                     /db_xref="taxon:559292"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /strain="S288c"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XII"
      primer_bind     8648..8664
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="413_ScPDC1tpf"
+                     /label="413_ScPDC1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(9576..9602)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="625_ScPDC1tpr_PacI"
-     misc            complement(9576..9609)
                      /label="625_ScPDC1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(9647..9670)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="166"
-     misc            complement(9647..9670)
                      /label="166"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(9647..9670)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="166"
-     misc            complement(9647..9670)
                      /label="166"
-     rep_origin      complement(10293..10974)
-                     /label="ColE1 origin"
-     overlap         10927..10976
-                     /ApEinfo_fwdcolor="#B5CCE9"
-                     /ApEinfo_revcolor="#E7F4ED"
-                     /chksum="EQX2tSa3BhPjeqEpgnZnQW4fa10"
-                     /note="olp_EQX2tSa3BhPjeqEpgnZnQW4fa10"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      10116
+                     /direction=BOTH
      primer_bind     10977..10997
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="807_pYPK0_hygfwd"
+                     /label="807_pYPK0_hygfwd2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      promoter        11092..11459
-                     /ApEinfo_fwdcolor="cyan"
-                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0"
-                     /ApEinfo_revcolor="green"
+                     /product="TEF-PRO"
                      /gene="TEF-PRO"
                      /label="TEF-PRO"
-                     /product="TEF-PRO"
-     CDS             11460..12488
-                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /ApEinfo_revcolor="pink"
+     CDS             11460..12488
+                     /product="hygromycin B phosphotransferase"
                      /gene="hph"
                      /label="hygromycin B phosphotransferase"
-                     /product="hygromycin B phosphotransferase"
-     terminator      12489..12728
-                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /ApEinfo_revcolor="green"
+     terminator      12489..12728
+                     /product="TEF-TER"
                      /gene="TEF-TER"
                      /label="TEF-TER"
-                     /product="TEF-TER"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
      primer_bind     complement(12794..12812)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="806_pYPK0_hygrev"
-     misc            complement(12794..12862)
                      /label="806_pYPK0_hygrev2"
-     overlap         12813..12862
-                     /ApEinfo_fwdcolor="#B6BCCE"
-                     /ApEinfo_revcolor="#CAC3E0"
-                     /chksum="gNkny5bsw1mNtM_Okz3rku6WVN8"
-                     /note="olp_gNkny5bsw1mNtM_Okz3rku6WVN8"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
@@ -483,49 +597,5 @@ ORIGIN
     12661 caatcgtatg tgaatgctgg tcgctatact gctgtcgatt cgatactaac gccgccatcc
     12721 agtgtcgaaa acgagctcga attcatcgat gatatcagat ccactagtgg cctatgcggc
     12781 cgcggatctg ccggtctccc tatagtgagt cgagcttatc gatgataagc tgtcaaagat
-    12841 gagaattaat tccacggact atagactata ctagatactc cgtctactgt acgatacact
-    12901 tccgctcagg tccttgtcct ttaacgaggc cttaccactc ttttgttact ctattgatcc
-    12961 agctcagcaa aggcagtgtg atctaagatt ctatcttcgc gatgtagtaa aactagctag
-    13021 accgagaaag agactagaaa tgcaaaaggc acttctacaa tggctgccat cattattatc
-    13081 cgatgtgacg ctgcagcttc tcaatgatat tcgaatacgc tttgaggaga tacagcctaa
-    13141 tatccgacaa actgttttac agatttacga tcgtacttgt tacccatcat tgaattttga
-    13201 acatccgaac ctgggagttt tccctgaaac agatagtata tttgaacctg tataataata
-    13261 tatagtctag cgctttacgg aagacaatgt atgtatttcg gttcctggag aaactattgc
-    13321 atctattgca taggtaatct tgcacgtcgc atccccggtt cattttctgc gtttccatct
-    13381 tgcacttcaa tagcatatct ttgttaacga agcatctgtg cttcattttg tagaacaaaa
-    13441 atgcaacgcg agagcgctaa tttttcaaac aaagaatctg agctgcattt ttacagaaca
-    13501 gaaatgcaac gcgaaagcgc tattttacca acgaagaatc tgtgcttcat ttttgtaaaa
-    13561 caaaaatgca acgcgacgag agcgctaatt tttcaaacaa agaatctgag ctgcattttt
-    13621 acagaacaga aatgcaacgc gagagcgcta ttttaccaac aaagaatcta tacttctttt
-    13681 ttgttctaca aaaatgcatc ccgagagcgc tatttttcta acaaagcatc ttagattact
-    13741 ttttttctcc tttgtgcgct ctataatgca gtctcttgat aactttttgc actgtaggtc
-    13801 cgttaaggtt agaagaaggc tactttggtg tctattttct cttccataaa aaaagcctga
-    13861 ctccacttcc cgcgtttact gattactagc gaagctgcgg gtgcattttt tcaagataaa
-    13921 ggcatccccg attatattct ataccgatgt ggattgcgca tactttgtga acagaaagtg
-    13981 atagcgttga tgattcttca ttggtcagaa aattatgaac ggtttcttct attttgtctc
-    14041 tatatactac gtataggaaa tgtttacatt ttcgtattgt tttcgattca ctctatgaat
-    14101 agttcttact acaatttttt tgtctaaaga gtaatactag agataaacat aaaaaatgta
-    14161 gaggtcgagt ttagatgcaa gttcaaggag cgaaaggtgg atgggtaggt tatataggga
-    14221 tatagcacag agatatatag caaagagata cttttgagca atgtttgtgg aagcggtatt
-    14281 cgcaatggga agctccaccc cggttgataa tcagaaaagc cccaaaaaca ggaagattat
-    14341 tatcaaaaag gatcttcacc tagatccttt taaattaaaa atgaagtttt aaatcaatct
-    14401 aaagtatata tgagtaaact tggtctgaca gttaccaatg cttaatcagt gaggcaccta
-    14461 tctcagcgat ctgtctattt cgttcatcca tagttgcctg actccccgtc gtgtagataa
-    14521 ctacgatacg ggagcgctta ccatctggcc ccagtgctgc aatgataccg cgagacccac
-    14581 gctcaccggc tccagattta tcagcaataa accagccagc cggaagggcc gagcgcagaa
-    14641 gtggtcctgc aactttatcc gcctccatcc agtctattaa ttgttgccgg gaagctagag
-    14701 taagtagttc gccagttaat agtttgcgca acgttgttgg cattgctaca ggcatcgtgg
-    14761 tgtcactctc gtcgtttggt atggcttcat tcagctccgg ttcccaacga tcaaggcgag
-    14821 ttacatgatc ccccatgttg tgcaaaaaag cggttagctc cttcggtcct ccgatcgttg
-    14881 tcagaagtaa gttggccgca gtgttatcac tcatggttat ggcagcactg cataattctc
-    14941 ttactgtcat gccatccgta agatgctttt ctgtgactgg tgagtactca accaagtcat
-    15001 tctgagaata gtgtatgcgg cgaccgagtt gctcttgccc ggcgtcaata cgggataata
-    15061 gtgtatcaca tagcagaact ttaaaagtgc tcatcattgg aaaacgttct tcggggcgaa
-    15121 aactctcaag gatcttaccg ctgttgagat ccagttcgat gtaacccact cgtgcaccca
-    15181 actgatcttc agcatctttt actttcacca gcgtttctgg gtgagcaaaa acaggaaggc
-    15241 aaaatgccgc aaaaaaggga ataagggcga cacggaaatg ttgaatactc atactcttcc
-    15301 tttttcaata ttattgaagc atttatcagg gttattgtct catgagcgga tacatatttg
-    15361 aatgtattta gaaaaataaa caaatagggg ttccgcgcac atttccccga aaagtgccac
-    15421 ctgctaagaa accattatta tcatgacatt aacctataaa aataggcgta tcacgaggcc
-    15481 ctttcgtc
+    12841 gagaattaat tccacggact at
 //
