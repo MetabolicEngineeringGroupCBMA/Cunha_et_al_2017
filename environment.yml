@@ -1,10 +1,9 @@
-name: mybinder_pygenome
+name: testenvironment
 channels:
-  - defaults
-  - BjornFJohansson
-  - conda-forge
+- defaults
+- conda-forge
+- BjornFJohansson
 dependencies:
-- python=3.5
+- python=3.7
 - pydna
-- lxml
 - pygenome
