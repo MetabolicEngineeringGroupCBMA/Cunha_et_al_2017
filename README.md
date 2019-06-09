@@ -32,7 +32,7 @@ These notebooks are tested on the travis ci build service at least once a month.
 This means that the notebook outputs are executed and compared with the old saved results.
 If the badge below is green, all tests gave the expected results.
 
-[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017.svg?branch=master)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017)
+[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017.svg)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017)
 
 If you would like to have your own copy of this repository, the best solution is to get a 
 Github account and then make your own fork. If you would like to download all files to your 
