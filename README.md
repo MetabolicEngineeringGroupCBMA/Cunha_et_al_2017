@@ -15,7 +15,7 @@ Each notebook is accompanied by a HTML file with the same name that is a static
 version that can be opened in a browser without installing any software.
 
 The notebooks are the files ending in `.ipynb`. These can be opened in the browser through the nbviewer service 
-[here](http://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/blob/master/index.ipynb) 
+[here](http://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/blob/master/notebooks/index.ipynb) 
 or directly in Github [here](notebooks/index.ipynb).
 
 [index](notebooks/index.ipynb)
