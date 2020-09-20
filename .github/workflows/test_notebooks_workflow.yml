@@ -24,7 +24,7 @@ jobs:
         with:
           auto-update-conda: true
           auto-activate-base: false
-          activate-environment: pydna_test_environment
+          activate-environment: environment
           channels: conda-forge, defaults
           environment-file: environment.yml
           use-only-tar-bz2: true
