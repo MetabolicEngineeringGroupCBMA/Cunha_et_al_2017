@@ -1,5 +1,6 @@
 LOCUS       pMEC1049               15488 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M_2019-05-23T06:14:42.021631.
+DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M
+            cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M_2019-05-23T06:14:42.021631.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -350,6 +351,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#ffbaba"
      rep_origin      10116
                      /direction=BOTH
+     misc            complement(49..852)
+                     /label="URA3"
      primer_bind     10977..10997
                      /label="807_pYPK0_hygfwd2"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -382,10 +385,8 @@ FEATURES             Location/Qualifiers
                      /label="806_pYPK0_hygrev2"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     misc            25659..26462
-                     /label="URA3"
-     rep_origin      26623..27304
-                     /label="ColE1 origin"
+     CDS             14435..15093
+                     /label="AmpR"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

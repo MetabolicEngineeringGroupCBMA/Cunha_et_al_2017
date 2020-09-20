@@ -1,5 +1,6 @@
 LOCUS       pMEC9003               20249 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_hhymwO1hS1IXp9n4XX4eODGWuhU_2019-05-23T06:15:24.665645.
+DEFINITION  cSEGUID_hhymwO1hS1IXp9n4XX4eODGWuhU
+            cSEGUID_hhymwO1hS1IXp9n4XX4eODGWuhU_2019-05-23T06:15:24.665645.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -84,8 +85,8 @@ FEATURES             Location/Qualifiers
                      SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
                      ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
                      "
-                     /ApEinfo_fwdcolor="#f7faef"
-                     /ApEinfo_revcolor="#f7faef"
+                     /ApEinfo_fwdcolor="#fdc7d6"
+                     /ApEinfo_revcolor="#fdc7d6"
      primer_bind     complement(3573..3588)
                      /label="part_part_Hrv"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -498,16 +499,14 @@ FEATURES             Location/Qualifiers
                      YMDSIIISPDAGGAKRAATLADRLDLNFALIHKERARANEVSRMVLVGDVTDKICIIVD
                      DMADTCGTLAKAAEILLENRAKSVIAIVTHGVLSGRAIENINNSKLDRVVCTNTVPFEE
                      KIKKCPKLAVIDISSVLAESIRRLHNGESISYLFKNYPL"
-                     /ApEinfo_fwdcolor="#e4a6c1"
-                     /ApEinfo_revcolor="#e4a6c1"
+                     /ApEinfo_fwdcolor="#aba8b0"
+                     /ApEinfo_revcolor="#aba8b0"
      primer_bind     14593..14609
                      /label="part_part_Prv"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      rep_origin      14877
                      /direction=BOTH
-     misc            14932..15735
-                     /label="URA3"
      primer_bind     15738..15758
                      /label="807_pYPK0_hygfwd2"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -520,8 +519,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-     rep_origin      15896..16577
-                     /label="ColE1 origin"
      CDS             16221..17249
                      /product="hygromycin B phosphotransferase"
                      /gene="hph"
@@ -542,6 +539,8 @@ FEATURES             Location/Qualifiers
                      /label="806_pYPK0_hygrev2"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     CDS             19196..19854
+                     /label="AmpR"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

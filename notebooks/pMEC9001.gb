@@ -1,5 +1,6 @@
 LOCUS       pMEC9001               18703 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I_2019-05-23T06:15:19.827787.
+DEFINITION  cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I
+            cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I_2019-05-23T06:15:19.827787.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -7,6 +8,8 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     misc            complement(join(49..372,3588..4067))
+                     /label="URA3"
      primer_bind     373..388
                      /label="part_part_Hfw"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -84,8 +87,8 @@ FEATURES             Location/Qualifiers
                      SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
                      ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
                      "
-                     /ApEinfo_fwdcolor="#f7faef"
-                     /ApEinfo_revcolor="#f7faef"
+                     /ApEinfo_fwdcolor="#fdc7d6"
+                     /ApEinfo_revcolor="#fdc7d6"
      primer_bind     3573..3588
                      /label="part_part_Hrv"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -433,8 +436,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#ffbaba"
      rep_origin      13331
                      /direction=BOTH
-     misc            13386..14189
-                     /label="URA3"
      primer_bind     14192..14212
                      /label="807_pYPK0_hygfwd2"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -447,8 +448,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-     rep_origin      14350..15031
-                     /label="ColE1 origin"
      CDS             14675..15703
                      /product="hygromycin B phosphotransferase"
                      /gene="hph"
@@ -469,6 +468,8 @@ FEATURES             Location/Qualifiers
                      /label="806_pYPK0_hygrev2"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     CDS             17650..18308
+                     /label="AmpR"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
