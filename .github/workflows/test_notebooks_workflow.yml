@@ -8,9 +8,6 @@ on:
 jobs:
   build:
     name: Test
-    strategy:
-        python-version: 3.8
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
