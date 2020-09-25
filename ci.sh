@@ -1,10 +1,4 @@
 
-# This is to make sure double stars ** works
-shopt -s globstar
-
-# This script runs, tests and converts (to html) all Jupyter notebooks in /notebooks
-# Probably running and converting should be turned off when the notebooks are ready for publication
-# notebooks with names starting with a dot . or in a folder starting with a dot are ignored.
 
 cd notebooks
 

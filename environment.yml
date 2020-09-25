@@ -8,6 +8,5 @@ dependencies:
 - pydna
 - pygenome
 
-- termcolor
-- nbval
 - pytest
+- nbval
