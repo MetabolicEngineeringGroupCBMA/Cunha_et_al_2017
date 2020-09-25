@@ -85,8 +85,8 @@ FEATURES             Location/Qualifiers
                      SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
                      ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
                      "
-                     /ApEinfo_fwdcolor="#fdc7d6"
-                     /ApEinfo_revcolor="#fdc7d6"
+                     /ApEinfo_fwdcolor="#d3bff7"
+                     /ApEinfo_revcolor="#d3bff7"
      primer_bind     complement(3573..3588)
                      /label="part_part_Hrv"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -499,8 +499,8 @@ FEATURES             Location/Qualifiers
                      YMDSIIISPDAGGAKRAATLADRLDLNFALIHKERARANEVSRMVLVGDVTDKICIIVD
                      DMADTCGTLAKAAEILLENRAKSVIAIVTHGVLSGRAIENINNSKLDRVVCTNTVPFEE
                      KIKKCPKLAVIDISSVLAESIRRLHNGESISYLFKNYPL"
-                     /ApEinfo_fwdcolor="#aba8b0"
-                     /ApEinfo_revcolor="#aba8b0"
+                     /ApEinfo_fwdcolor="#feaaad"
+                     /ApEinfo_revcolor="#feaaad"
      primer_bind     14593..14609
                      /label="part_part_Prv"
                      /ApEinfo_fwdcolor="#baffa3"
