@@ -29,20 +29,6 @@ jobs:
           environment-file: environment.yml
           use-only-tar-bz2: true
 
-      - name: globstar
-        shell: bash -l {0}
-        run: bash shopt -s globstar
-
       - name: test notebooks
         shell: bash -l {0}
-        run: pytest --current-env --capture=no --nbval **/*.ipynb
-
-      - name: Upload coverage to Codecov
-        if: (matrix.codecov)
-        uses: codecov/codecov-action@v1.0.13
-        with:
-          file: ./coverage.xml
-          token: ${{ secrets.CODECOV_TOKEN }}
-          env_vars: OS,PYTHON
-          name: codecov-umbrella
-          fail_ci_if_error: true
+        run: bash test_all_notebooks.sh
