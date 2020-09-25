@@ -6,7 +6,7 @@ on:
     tags-ignore:
       - '*.*'
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 6 * * 0'
 jobs:
   build:
     name: Test
