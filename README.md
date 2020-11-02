@@ -33,7 +33,7 @@ These notebooks are tested on the github action build service.
 This means that the notebook outputs are reexecuted and compared with saved results.
 If the badge below is green, all tests gave the expected results.
 
-![test jupiter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/workflows/test%20jupiter%20notebooks/badge.svg)
+[![test jupiter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/workflows/test%20jupiter%20notebooks/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions)
 
 
 If you would like to have your own copy of this repository, the best solution is to get a
