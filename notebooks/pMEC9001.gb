@@ -1,6 +1,5 @@
 LOCUS       pMEC9001               18703 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I
-            cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I_2019-05-23T06:15:19.827787.
+DEFINITION  cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -11,7 +10,7 @@ FEATURES             Location/Qualifiers
      misc            complement(join(49..372,3588..4067))
                      /label="URA3"
      primer_bind     373..388
-                     /label="part_part_Hfw"
+                     /label="part_part_part_H"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      gene            985..3069
@@ -87,10 +86,10 @@ FEATURES             Location/Qualifiers
                      SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
                      ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
                      "
-                     /ApEinfo_fwdcolor="#b6aafe"
-                     /ApEinfo_revcolor="#b6aafe"
+                     /ApEinfo_fwdcolor="#d4c6f4"
+                     /ApEinfo_revcolor="#d4c6f4"
      primer_bind     3573..3588
-                     /label="part_part_Hrv"
+                     /label="part_part_part_H"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      primer_bind     3648..3671
@@ -209,10 +208,7 @@ FEATURES             Location/Qualifiers
      CDS             7520..7624
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -226,10 +222,7 @@ FEATURES             Location/Qualifiers
      CDS             7520..7624
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -243,12 +236,7 @@ FEATURES             Location/Qualifiers
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -263,12 +251,7 @@ FEATURES             Location/Qualifiers
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -301,6 +284,12 @@ FEATURES             Location/Qualifiers
                      /gene="XKS1"
                      /locus_tag="YGR194C"
                      /EC_number="2.7.1.17"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005998 xylulose
+                     catabolic process [PMID:10981687]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004856
+                     xylulokinase activity [PMID:9595677]"
                      /note="Xylulokinase; converts D-xylulose and ATP to
                      xylulose 5-phosphate and ADP; rate limiting step in
                      fermentation of xylulose; required for xylose fermentation
@@ -383,6 +372,13 @@ FEATURES             Location/Qualifiers
                      /gene="TAL1"
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
+                     /experiment="EXISTENCE:direct assay:GO:0004801
+                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
+                     glyceronetransferase activity [PMID:2185015]"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:17397208]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transaldolase, enzyme in the non-oxidative pentose
                      phosphate pathway; converts sedoheptulose 7-phosphate and
                      glyceraldehyde 3-phosphate to erythrose 4-phosphate and

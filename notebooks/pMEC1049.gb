@@ -1,6 +1,5 @@
 LOCUS       pMEC1049               15488 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M
-            cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M_2019-05-23T06:14:42.021631.
+DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -124,10 +123,7 @@ FEATURES             Location/Qualifiers
      CDS             4305..4409
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -141,10 +137,7 @@ FEATURES             Location/Qualifiers
      CDS             4305..4409
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -158,12 +151,7 @@ FEATURES             Location/Qualifiers
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -178,12 +166,7 @@ FEATURES             Location/Qualifiers
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -216,6 +199,12 @@ FEATURES             Location/Qualifiers
                      /gene="XKS1"
                      /locus_tag="YGR194C"
                      /EC_number="2.7.1.17"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005998 xylulose
+                     catabolic process [PMID:10981687]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004856
+                     xylulokinase activity [PMID:9595677]"
                      /note="Xylulokinase; converts D-xylulose and ATP to
                      xylulose 5-phosphate and ADP; rate limiting step in
                      fermentation of xylulose; required for xylose fermentation
@@ -298,6 +287,13 @@ FEATURES             Location/Qualifiers
                      /gene="TAL1"
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
+                     /experiment="EXISTENCE:direct assay:GO:0004801
+                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
+                     glyceronetransferase activity [PMID:2185015]"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:17397208]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transaldolase, enzyme in the non-oxidative pentose
                      phosphate pathway; converts sedoheptulose 7-phosphate and
                      glyceraldehyde 3-phosphate to erythrose 4-phosphate and
