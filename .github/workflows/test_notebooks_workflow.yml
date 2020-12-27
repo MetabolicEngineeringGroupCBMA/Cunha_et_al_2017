@@ -15,12 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Cache conda
-        uses: actions/cache@v2
-        with:
-          path: ~/conda_pkgs_dir
-          key: conda-${{ hashFiles('environment-ci.yml') }}
-
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
