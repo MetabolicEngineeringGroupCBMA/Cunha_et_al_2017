@@ -23,46 +23,25 @@ FEATURES             Location/Qualifiers
      CDS             985..3069
                      /gene="HAA1"
                      /locus_tag="YPR008W"
-                     /GO_component="GO:0005737 - cytoplasm [Evidence IDA] [PMID
-                     22842922]"
-                     /GO_component="GO:0005634 - nucleus [Evidence IEA,IEA,IEA]"
-                     /GO_component="GO:0005634 - nucleus [Evidence IDA] [PMID
-                     11504737]"
-                     /GO_function="GO:0003677 - DNA binding [Evidence IEA,IEA]"
-                     /GO_function="GO:0000978 - RNA polymerase II core promoter
-                     proximal region sequence-specific DNA binding [Evidence
-                     IBA]"
-                     /GO_function="GO:0001202 - RNA polymerase II transcription
-                     factor activity, copper ion regulated core promoter
-                     proximal region sequence-specific binding [Evidence IBA]"
-                     /GO_function="GO:0000981 - RNA polymerase II transcription
-                     factor activity, sequence-specific DNA binding [Evidence
-                     IDA] [PMID 21586585]"
-                     /GO_function="GO:0005507 - copper ion binding [Evidence
-                     IBA,IEA]"
-                     /GO_function="GO:0046872 - metal ion binding [Evidence
-                     IEA]"
-                     /GO_function="GO:0003700 - transcription factor activity,
-                     sequence-specific DNA binding [Evidence IEA]"
-                     /GO_process="GO:0006878 - cellular copper ion homeostasis
-                     [Evidence IBA]"
-                     /GO_process="GO:0006879 - cellular iron ion homeostasis
-                     [Evidence IBA]"
-                     /GO_process="GO:0071280 - cellular response to copper ion
-                     [Evidence IEA]"
-                     /GO_process="GO:0045944 - positive regulation of
-                     transcription from RNA polymerase II promoter [Evidence
-                     IDA,IMP] [PMID 11504737]"
-                     /GO_process="GO:0061402 - positive regulation of
-                     transcription from RNA polymerase II promoter in response
-                     to acidic pH [Evidence IMP] [PMID 16980434]"
-                     /GO_process="GO:0036003 - positive regulation of
-                     transcription from RNA polymerase II promoter in response
-                     to stress [Evidence IMP] [PMID 16176797]"
-                     /GO_process="GO:0006355 - regulation of transcription,
-                     DNA-templated [Evidence IEA,IEA]"
-                     /GO_process="GO:0006351 - transcription, DNA-templated
-                     [Evidence IEA]"
+                     /experiment="EXISTENCE:direct assay:GO:0000981 DNA-binding
+                     transcription factor activity, RNA polymerase II-specific
+                     [PMID:21586585]"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:11504737]"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:22842922]"
+                     /experiment="EXISTENCE:direct assay:GO:0045944 positive
+                     regulation of transcription by RNA polymerase II
+                     [PMID:11504737]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0036003 positive
+                     regulation of transcription from RNA polymerase II promoter
+                     in response to stress [PMID:16176797]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0045944 positive
+                     regulation of transcription by RNA polymerase II
+                     [PMID:11504737]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0061402 positive
+                     regulation of transcription from RNA polymerase II promoter
+                     in response to acidic pH [PMID:16980434|PMID:28068993]"
                      /note="Transcriptional activator involved in adaptation to
                      weak acid stress; activates transcription of TPO2, YRO2,
                      and other genes encoding membrane stress proteins; HAA1 has
@@ -86,8 +65,8 @@ FEATURES             Location/Qualifiers
                      SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
                      ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
                      "
-                     /ApEinfo_fwdcolor="#f7e2db"
-                     /ApEinfo_revcolor="#f7e2db"
+                     /ApEinfo_fwdcolor="#e19cac"
+                     /ApEinfo_revcolor="#e19cac"
      primer_bind     3573..3588
                      /label="part_part_part_H"
                      /ApEinfo_fwdcolor="#baffa3"

@@ -362,44 +362,22 @@ FEATURES             Location/Qualifiers
                      /gene="PRS3"
                      /locus_tag="YHL011C"
                      /EC_number="2.7.6.1"
-                     /GO_component="GO:0005737 - cytoplasm [Evidence IEA,IEA]"
-                     /GO_component="GO:0005737 - cytoplasm [Evidence IDA] [PMID
-                     14562095]"
-                     /GO_component="GO:0002189 - ribose phosphate
-                     diphosphokinase complex [Evidence IDA] [PMID 15280369]"
-                     /GO_function="GO:0005524 - ATP binding [Evidence IEA]"
-                     /GO_function="GO:0016301 - kinase activity [Evidence IEA]"
-                     /GO_function="GO:0000287 - magnesium ion binding [Evidence
-                     IEA]"
-                     /GO_function="GO:0046872 - metal ion binding [Evidence
-                     IEA]"
-                     /GO_function="GO:0000166 - nucleotide binding [Evidence
-                     IEA]"
-                     /GO_function="GO:0004749 - ribose phosphate diphosphokinase
-                     activity [Evidence IEA,IEA]"
-                     /GO_function="GO:0004749 - ribose phosphate diphosphokinase
-                     activity [Evidence IGI] [PMID 15280369]"
-                     /GO_function="GO:0016740 - transferase activity [Evidence
-                     IEA]"
-                     /GO_process="GO:0006015 - 5-phosphoribose 1-diphosphate
-                     biosynthetic process [Evidence IEA]"
-                     /GO_process="GO:0006015 - 5-phosphoribose 1-diphosphate
-                     biosynthetic process [Evidence IMP] [PMID 10212224]"
-                     /GO_process="GO:0006015 - 5-phosphoribose 1-diphosphate
-                     biosynthetic process [Evidence IGI] [PMID 15280369]"
-                     /GO_process="GO:0044249 - cellular biosynthetic process
-                     [Evidence IEA]"
-                     /GO_process="GO:0031505 - fungal-type cell wall
-                     organization [Evidence IPI] [PMID 15470112]"
-                     /GO_process="GO:0009116 - nucleoside metabolic process
-                     [Evidence IEA]"
-                     /GO_process="GO:0009165 - nucleotide biosynthetic process
-                     [Evidence IEA,IEA]"
-                     /GO_process="GO:0016310 - phosphorylation [Evidence IEA]"
-                     /GO_process="GO:0008361 - regulation of cell size [Evidence
-                     IMP] [PMID 12089449]"
-                     /GO_process="GO:0009156 - ribonucleoside monophosphate
-                     biosynthetic process [Evidence IEA]"
+                     /experiment="EXISTENCE:direct assay:GO:0002189 ribose
+                     phosphate diphosphokinase complex [PMID:15280369]"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:genetic interaction:GO:0004749
+                     ribose phosphate diphosphokinase activity [PMID:15280369]"
+                     /experiment="EXISTENCE:genetic interaction:GO:0006015
+                     5-phosphoribose 1-diphosphate biosynthetic process
+                     [PMID:15280369]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006015
+                     5-phosphoribose 1-diphosphate biosynthetic process
+                     [PMID:10212224]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0008361
+                     regulation of cell size [PMID:12089449]"
+                     /experiment="EXISTENCE:physical interaction:GO:0031505
+                     fungal-type cell wall organization [PMID:15470112]"
                      /note="5-phospho-ribosyl-1(alpha)-pyrophosphate synthetase;
                      synthesizes PRPP, which is required for nucleotide,
                      histidine, and tryptophan biosynthesis; one of five related
@@ -414,8 +392,8 @@ FEATURES             Location/Qualifiers
                      YMDSIIISPDAGGAKRAATLADRLDLNFALIHKERARANEVSRMVLVGDVTDKICIIVD
                      DMADTCGTLAKAAEILLENRAKSVIAIVTHGVLSGRAIENINNSKLDRVVCTNTVPFEE
                      KIKKCPKLAVIDISSVLAESIRRLHNGESISYLFKNYPL"
-                     /ApEinfo_fwdcolor="#99e1f0"
-                     /ApEinfo_revcolor="#99e1f0"
+                     /ApEinfo_fwdcolor="#c59f99"
+                     /ApEinfo_revcolor="#c59f99"
      primer_bind     11378..11394
                      /label="part_part_P2"
                      /ApEinfo_fwdcolor="#baffa3"
