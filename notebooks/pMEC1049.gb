@@ -1,11 +1,13 @@
 LOCUS       pMEC1049               15488 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_coUUwKIZTWEpR7eT5ngvCfBEm2M.
+DEFINITION  description.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=u60NZ3j9UWsnkLOue3T5IrZa_DY 2024-06-11T18:53:12
+            
 FEATURES             Location/Qualifiers
      primer_bind     433..456
                      /label="167"
@@ -150,8 +152,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -165,8 +174,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -288,8 +304,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
                      /experiment="EXISTENCE:direct assay:GO:0004801
-                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
-                     glyceronetransferase activity [PMID:2185015]"
+                     transaldolase activity [PMID:2185015]"
                      /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
                      [PMID:17397208]"
                      /experiment="EXISTENCE:mutant phenotype:GO:0006098
@@ -347,10 +362,11 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#ffbaba"
      rep_origin      10116
                      /direction=BOTH
-     misc            complement(49..852)
-                     /label="URA3"
      primer_bind     10977..10997
                      /label="807_pYPK0_hygfwd2"
+                     /PCR_conditions="primer
+                     sequence:tctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgag
+                     CACATACGATTTAGGTGACAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      promoter        11092..11459
@@ -379,6 +395,9 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0"
      primer_bind     complement(12794..12812)
                      /label="806_pYPK0_hygrev2"
+                     /PCR_conditions="primer
+                     sequence:atagtccgtggaattaattctcatctttgacagcttatcatcgataagct
+                     CGACTCACTATAGGGAGAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      CDS             14435..15093

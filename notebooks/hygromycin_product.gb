@@ -3,9 +3,10 @@ DEFINITION  pcr product_807_pYPK0_hygfwd2_806_pYPK0_hygrev2.
 ACCESSION   1936bp 4rAsD5THNDLzSuR9YQMe-XeENDM
 VERSION     1936bp 4rAsD5THNDLzSuR9YQMe-XeENDM
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna ldseguid=73L7V1UY-ythP2kYCmKWjJZF5uU 2024-06-11T18:40:51
 FEATURES             Location/Qualifiers
      primer_bind     51..71
                      /label="807_pYPK0_hygfwd2"

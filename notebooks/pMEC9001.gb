@@ -1,74 +1,26 @@
 LOCUS       pMEC9001               18703 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_BgBOlNv8lWGLExKGOpZa8J83H9I.
+DEFINITION  description.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=kSu-AcOo1olUXjSc3gnn0bWhezA 2024-06-11T18:53:10
+            
 FEATURES             Location/Qualifiers
-     misc            complement(join(49..372,3588..4067))
-                     /label="URA3"
      primer_bind     373..388
                      /label="part_part_part_H"
+                     /PCR_conditions="primer
+                     sequence:GGTTTTACCGTGTGCGGAGATCAGGTTCTGATCCCCCATTTCCCCTTTCT
+                     "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     gene            985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-     mRNA            985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-                     /product="Haa1p"
-     CDS             985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-                     /experiment="EXISTENCE:direct assay:GO:0000981 DNA-binding
-                     transcription factor activity, RNA polymerase II-specific
-                     [PMID:21586585]"
-                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
-                     [PMID:22842922]"
-                     /experiment="EXISTENCE:direct assay:GO:0045944 positive
-                     regulation of transcription by RNA polymerase II
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0036003 positive
-                     regulation of transcription from RNA polymerase II promoter
-                     in response to stress [PMID:16176797]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0045944 positive
-                     regulation of transcription by RNA polymerase II
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0061402 positive
-                     regulation of transcription from RNA polymerase II promoter
-                     in response to acidic pH [PMID:16980434|PMID:28068993]"
-                     /note="Transcriptional activator involved in adaptation to
-                     weak acid stress; activates transcription of TPO2, YRO2,
-                     and other genes encoding membrane stress proteins; HAA1 has
-                     a paralog, CUP2, that arose from the whole genome
-                     duplication; relocalizes from cytoplasm to nucleus upon DNA
-                     replication stress"
-                     /codon_start=1
-                     /product="Haa1p"
-                     /protein_id="DAA11435.1"
-                     /db_xref="SGD:S000006212"
-                     /translation="MVLINGIKYACERCIRGHRVTTCNHTDQPLMMIKPKGRPSTTCDY
-                     CKQLRKNKNANPEGVCTCGRLEKKKLAQKAKEEARAKAKEKQRKQCTCGTDEVCKYHAQ
-                     KRHLRKSPSSSQKKGRSISRSQPMFERVLSSTSLDSNMLSGHGALSDTSSILTSTFLDS
-                     EPGVGKISKDYHHVPSLASISSLQSSQSLDQNFSIPQSPPLSSMSFNFLTGNINETNQN
-                     HSNHQHSKSGNNWQDSSVSLPAKADSRLNMMDKNNSVGLDLLGHSKRISPISNSRVGEV
-                     SVPLEEYIPSDIDGVGRVTDKSSLVYDWPFDESIERNFSTTATAATGESKFDINDNCNR
-                     INSKSYSKTNSMNGNGMNNSNNNNINSNGNDKNNNNSSRQEHQGNGLFDMFTDSSSIST
-                     LSRANLLLQEKIGSQENSVKQENYSKNPQLRHQLTSRSRSFIHHPANEYLKNTFGNSHS
-                     NDIGKGVEVLSLTPSFMDIPEKERETERSPSSNYITDRPFTRKPRSSSIDVNHRYPPMA
-                     PTTVATSPGALNNAVASNLDDQLSLTSLNSQPSSIANMMMDPSNLAEQSSIHSVPQSIN
-                     SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
-                     ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
-                     "
-                     /ApEinfo_fwdcolor="#e19cac"
-                     /ApEinfo_revcolor="#e19cac"
-     primer_bind     3573..3588
+     primer_bind     complement(3573..3587)
                      /label="part_part_part_H"
+                     /PCR_conditions="primer
+                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCZJQFATACCTCATCTCTGC
+                     "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      primer_bind     3648..3671
@@ -214,8 +166,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -229,8 +188,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -352,8 +318,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
                      /experiment="EXISTENCE:direct assay:GO:0004801
-                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
-                     glyceronetransferase activity [PMID:2185015]"
+                     transaldolase activity [PMID:2185015]"
                      /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
                      [PMID:17397208]"
                      /experiment="EXISTENCE:mutant phenotype:GO:0006098
@@ -413,6 +378,9 @@ FEATURES             Location/Qualifiers
                      /direction=BOTH
      primer_bind     14192..14212
                      /label="807_pYPK0_hygfwd2"
+                     /PCR_conditions="primer
+                     sequence:tctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgag
+                     CACATACGATTTAGGTGACAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      promoter        14307..14674
@@ -441,6 +409,9 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0"
      primer_bind     complement(16009..16027)
                      /label="806_pYPK0_hygrev2"
+                     /PCR_conditions="primer
+                     sequence:atagtccgtggaattaattctcatctttgacagcttatcatcgataagct
+                     CGACTCACTATAGGGAGAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      CDS             17650..18308

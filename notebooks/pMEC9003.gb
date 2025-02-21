@@ -1,72 +1,26 @@
 LOCUS       pMEC9003               20249 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_hhymwO1hS1IXp9n4XX4eODGWuhU.
+DEFINITION  description.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=8bvZM2EzB5XlRewv1IEH8TvJETw 2024-06-11T18:53:10
+            
 FEATURES             Location/Qualifiers
      primer_bind     373..388
                      /label="part_part_part_H"
+                     /PCR_conditions="primer
+                     sequence:GGTTTTACCGTGTGCGGAGATCAGGTTCTGATCCCCCATTTCCCCTTTCT
+                     "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     gene            985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-     mRNA            985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-                     /product="Haa1p"
-     CDS             985..3069
-                     /gene="HAA1"
-                     /locus_tag="YPR008W"
-                     /experiment="EXISTENCE:direct assay:GO:0000981 DNA-binding
-                     transcription factor activity, RNA polymerase II-specific
-                     [PMID:21586585]"
-                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
-                     [PMID:22842922]"
-                     /experiment="EXISTENCE:direct assay:GO:0045944 positive
-                     regulation of transcription by RNA polymerase II
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0036003 positive
-                     regulation of transcription from RNA polymerase II promoter
-                     in response to stress [PMID:16176797]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0045944 positive
-                     regulation of transcription by RNA polymerase II
-                     [PMID:11504737]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0061402 positive
-                     regulation of transcription from RNA polymerase II promoter
-                     in response to acidic pH [PMID:16980434|PMID:28068993]"
-                     /note="Transcriptional activator involved in adaptation to
-                     weak acid stress; activates transcription of TPO2, YRO2,
-                     and other genes encoding membrane stress proteins; HAA1 has
-                     a paralog, CUP2, that arose from the whole genome
-                     duplication; relocalizes from cytoplasm to nucleus upon DNA
-                     replication stress"
-                     /codon_start=1
-                     /product="Haa1p"
-                     /protein_id="DAA11435.1"
-                     /db_xref="SGD:S000006212"
-                     /translation="MVLINGIKYACERCIRGHRVTTCNHTDQPLMMIKPKGRPSTTCDY
-                     CKQLRKNKNANPEGVCTCGRLEKKKLAQKAKEEARAKAKEKQRKQCTCGTDEVCKYHAQ
-                     KRHLRKSPSSSQKKGRSISRSQPMFERVLSSTSLDSNMLSGHGALSDTSSILTSTFLDS
-                     EPGVGKISKDYHHVPSLASISSLQSSQSLDQNFSIPQSPPLSSMSFNFLTGNINETNQN
-                     HSNHQHSKSGNNWQDSSVSLPAKADSRLNMMDKNNSVGLDLLGHSKRISPISNSRVGEV
-                     SVPLEEYIPSDIDGVGRVTDKSSLVYDWPFDESIERNFSTTATAATGESKFDINDNCNR
-                     INSKSYSKTNSMNGNGMNNSNNNNINSNGNDKNNNNSSRQEHQGNGLFDMFTDSSSIST
-                     LSRANLLLQEKIGSQENSVKQENYSKNPQLRHQLTSRSRSFIHHPANEYLKNTFGNSHS
-                     NDIGKGVEVLSLTPSFMDIPEKERETERSPSSNYITDRPFTRKPRSSSIDVNHRYPPMA
-                     PTTVATSPGALNNAVASNLDDQLSLTSLNSQPSSIANMMMDPSNLAEQSSIHSVPQSIN
-                     SPRMPKTGSRQDKNIHTKKEERNPLNNIHDLSQLENVPDEMNQMFSPPLKSMNRPDAIR
-                     ENSSSSNFIIQGNSMISTPSGRNDLPDTSPMSSIQTASPPSQLLTDQGFADLDNFMSSL
-                     "
-                     /ApEinfo_fwdcolor="#e19cac"
-                     /ApEinfo_revcolor="#e19cac"
-     primer_bind     complement(3573..3588)
+     primer_bind     complement(3573..3587)
                      /label="part_part_part_H"
+                     /PCR_conditions="primer
+                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCZJQFATACCTCATCTCTGC
+                     "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      primer_bind     3648..3671
@@ -212,8 +166,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -227,8 +188,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             7977..8126
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -350,8 +318,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
                      /experiment="EXISTENCE:direct assay:GO:0004801
-                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
-                     glyceronetransferase activity [PMID:2185015]"
+                     transaldolase activity [PMID:2185015]"
                      /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
                      [PMID:17397208]"
                      /experiment="EXISTENCE:mutant phenotype:GO:0006098
@@ -409,59 +376,25 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#ffbaba"
      primer_bind     13063..13078
                      /label="part_P1"
+                     /PCR_conditions="primer
+                     sequence:TAACGATGTAGTACAGCGTTTCCGCTTTTTCACCCTTATCTTCATCACCG
+                     C"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     gene            13410..14372
-                     /gene="PRS3"
-                     /locus_tag="YHL011C"
-     mRNA            13410..14372
-                     /gene="PRS3"
-                     /locus_tag="YHL011C"
-                     /product="ribose phosphate diphosphokinase subunit PRS3"
-     CDS             13410..14372
-                     /gene="PRS3"
-                     /locus_tag="YHL011C"
-                     /EC_number="2.7.6.1"
-                     /experiment="EXISTENCE:direct assay:GO:0002189 ribose
-                     phosphate diphosphokinase complex [PMID:15280369]"
-                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
-                     [PMID:14562095]"
-                     /experiment="EXISTENCE:genetic interaction:GO:0004749
-                     ribose phosphate diphosphokinase activity [PMID:15280369]"
-                     /experiment="EXISTENCE:genetic interaction:GO:0006015
-                     5-phosphoribose 1-diphosphate biosynthetic process
-                     [PMID:15280369]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0006015
-                     5-phosphoribose 1-diphosphate biosynthetic process
-                     [PMID:10212224]"
-                     /experiment="EXISTENCE:mutant phenotype:GO:0008361
-                     regulation of cell size [PMID:12089449]"
-                     /experiment="EXISTENCE:physical interaction:GO:0031505
-                     fungal-type cell wall organization [PMID:15470112]"
-                     /note="5-phospho-ribosyl-1(alpha)-pyrophosphate synthetase;
-                     synthesizes PRPP, which is required for nucleotide,
-                     histidine, and tryptophan biosynthesis; one of five related
-                     enzymes, which are active as heteromultimeric complexes"
-                     /codon_start=1
-                     /product="ribose phosphate diphosphokinase subunit PRS3"
-                     /protein_id="DAA06675.1"
-                     /db_xref="SGD:S000001003"
-                     /translation="MPTNSIKLLAPDVHRGLAELVAKRLGLQLTSSKLKRDPTGEVSFS
-                     IGESVRDQDIFIITQIGSGVVNDRVLELLIMINASKTASARRITAIIPNFPYARQDRKD
-                     KSRAPITAKLMADMLTTAGCDHVITMDLHASQIQGFFDVPVDNLYAEPSVVRYIKENVN
-                     YMDSIIISPDAGGAKRAATLADRLDLNFALIHKERARANEVSRMVLVGDVTDKICIIVD
-                     DMADTCGTLAKAAEILLENRAKSVIAIVTHGVLSGRAIENINNSKLDRVVCTNTVPFEE
-                     KIKKCPKLAVIDISSVLAESIRRLHNGESISYLFKNYPL"
-                     /ApEinfo_fwdcolor="#c59f99"
-                     /ApEinfo_revcolor="#c59f99"
      primer_bind     14593..14609
                      /label="part_part_P2"
+                     /PCR_conditions="primer
+                     sequence:CATAAGTACCCATCCAAGAGCACGCTTATTCACCAACAAGAGAAACTTTT
+                     G"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      rep_origin      14877
                      /direction=BOTH
      primer_bind     15738..15758
                      /label="807_pYPK0_hygfwd2"
+                     /PCR_conditions="primer
+                     sequence:tctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgag
+                     CACATACGATTTAGGTGACAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      promoter        15853..16220
@@ -490,6 +423,9 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0"
      primer_bind     complement(17555..17573)
                      /label="806_pYPK0_hygrev2"
+                     /PCR_conditions="primer
+                     sequence:atagtccgtggaattaattctcatctttgacagcttatcatcgataagct
+                     CGACTCACTATAGGGAGAC"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      CDS             19196..19854
