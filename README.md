@@ -9,7 +9,7 @@ These notebooks and other files accompany the publication:
 
 [Costa, C.E., Romaní, A., Cunha, J.T., Johansson, B., Domingues, L., 2017. Integrated approach for selecting efficient Saccharomyces cerevisiae for industrial lignocellulosic fermentations: Importance of yeast chassis linked to process conditions. Bioresour. Technol. 227, 24–34.](https://www.ncbi.nlm.nih.gov/pubmed/28013133)
 
-This repository is called "Cunha_et_al_2017" while "Costa_et_al_2017" would have been the correct designation. This naming was named before the author order was decided.
+This repository is called "Cunha_et_al_2017" while "Costa_et_al_2017" would have been the correct designation. This repository was first committed to on Jan 30, 2017 before the author order was decided.
 
 The notebooks are the files ending in `.ipynb`. These can be opened in the browser through the nbviewer service
 [here](http://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/blob/master/notebooks/index.ipynb) or directly in Github:
