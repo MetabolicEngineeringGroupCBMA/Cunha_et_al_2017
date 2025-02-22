@@ -31,4 +31,5 @@ jobs:
         run: |
           shopt -s globstar
           cd notebooks
+          export PYTHONWARNINGS="ignore:Feature qualifier key 'ApEinfo_graphicformat' is longer than maximum length specified by standard"
           pytest -vvv --import-mode=importlib --current-env --capture=no --nbval **/*.ipynb
