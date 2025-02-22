@@ -28,12 +28,12 @@ The index.ipynb notebook has links to the other notebooks and is the place to st
 
 Each notebook contain links (usually in the end) to the resulting sequences in Genbank flat file format.
 
-These notebooks are tested on the github action build service.
+These notebooks are tested using a github action.
 
-This means that the notebook outputs are reexecuted and compared with saved results.
+This means that the notebook outputs are executed and results compared with previously saved results.
 If the badge below is green, all tests gave the expected results.
 
-[![test jupiter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/workflows/test%20jupiter%20notebooks/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions)
+[![Test Jupyter Notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml)
 
 
 If you would like to have your own copy of this repository, the best solution is to get a
