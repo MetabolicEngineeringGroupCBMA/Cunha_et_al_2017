@@ -7,6 +7,7 @@ SOURCE      .
   ORGANISM  .
             .
 COMMENT     pydna cdseguid=8bvZM2EzB5XlRewv1IEH8TvJETw 2025-02-21T08:29:04
+            
 FEATURES             Location/Qualifiers
      primer_bind     373..388
                      /label="part_part_part_H"
@@ -15,10 +16,10 @@ FEATURES             Location/Qualifiers
                      "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(3573..3588)
+     primer_bind     complement(3573..3587)
                      /label="part_part_part_H"
                      /PCR_conditions="primer
-                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCTCGAATACCTCATCTCTGC
+                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCZJQFATACCTCATCTCTGC
                      "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
