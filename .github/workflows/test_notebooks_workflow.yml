@@ -25,7 +25,8 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest nbval pydna
+          pip install pytest nbval
+          pip install git+https://github.com/pydna-group/pydna.git@Dseq4
 
       - name: Run Jupyter Notebook Tests
         run: |
