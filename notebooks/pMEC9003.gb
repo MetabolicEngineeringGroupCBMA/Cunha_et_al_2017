@@ -6,7 +6,7 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
-COMMENT     pydna cdseguid=8bvZM2EzB5XlRewv1IEH8TvJETw 2026-05-21T14:44:20
+COMMENT     pydna cdseguid=8bvZM2EzB5XlRewv1IEH8TvJETw 2026-05-21T16:16:48
 FEATURES             Location/Qualifiers
      primer_bind     373..388
                      /label="part_part_part_H"
@@ -389,7 +389,9 @@ FEATURES             Location/Qualifiers
      promoter        15853..16220
                      /product="TEF-PRO"
                      /gene="TEF-PRO"
+                     /locus_tag="TEF-PRO"
                      /label="TEF-PRO"
+                     /ApEinfo_label="TEF-PRO"
                      /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -397,7 +399,9 @@ FEATURES             Location/Qualifiers
      CDS             16221..17249
                      /product="hygromycin B phosphotransferase"
                      /gene="hph"
+                     /locus_tag="hygromycin B phosphotransferase"
                      /label="hygromycin B phosphotransferase"
+                     /ApEinfo_label="hygromycin B phosphotransferase"
                      /ApEinfo_fwdcolor="pink"
                      /ApEinfo_revcolor="pink"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -405,7 +409,9 @@ FEATURES             Location/Qualifiers
      terminator      17250..17489
                      /product="TEF-TER"
                      /gene="TEF-TER"
+                     /locus_tag="TEF-TER"
                      /label="TEF-TER"
+                     /ApEinfo_label="TEF-TER"
                      /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
