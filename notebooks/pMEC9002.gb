@@ -6,8 +6,7 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
-COMMENT     pydna cdseguid=zl65eD-5ilNaAO6HVaGYDFHmLek 2025-02-21T08:29:03
-            
+COMMENT     pydna cdseguid=zl65eD-5ilNaAO6HVaGYDFHmLek 2026-05-21T14:44:19
 FEATURES             Location/Qualifiers
      primer_bind     433..456
                      /label="167"
@@ -357,7 +356,7 @@ FEATURES             Location/Qualifiers
                      C"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     11378..11394
+     primer_bind     complement(join(11394,11378..11393))
                      /label="part_part_P2"
                      /PCR_conditions="primer
                      sequence:CATAAGTACCCATCCAAGAGCACGCTTATTCACCAACAAGAGAAACTTTT

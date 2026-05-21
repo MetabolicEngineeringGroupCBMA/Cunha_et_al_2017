@@ -1,21 +1,23 @@
-LOCUS       pAG32                   4160 bp    ds-DNA  circular UNK 27-MAR-2015
+LOCUS       pAG32                   4160 bp    DNA     circular     21-MAY-2026
 DEFINITION  .
 ACCESSION   pAG32
 VERSION     pAG32
 KEYWORDS    .
 SOURCE      Unknown
-  ORGANISM  Unknown Unclassified. . . .
-            .
+  ORGANISM  Unknown Unclassified. . . . .
 REFERENCE   1  (bases 1 to 4160)
   AUTHORS   Self
   JOURNAL   Unpublished.
+COMMENT     
 COMMENT     ApEinfo:methylated:1
-            pydna cdseguid=0RLCd_8WmkRtWyxPzLlpKNOc8tk 2024-06-11T18:53:30
+COMMENT     ApEinfo:cdseguid=0RLCd_8WmkRtWyxPzLlpKNOc8tk
 FEATURES             Location/Qualifiers
      promoter        91..458
                      /product="TEF-PRO"
                      /gene="TEF-PRO"
+                     /locus_tag="TEF-PRO"
                      /label="TEF-PRO"
+                     /ApEinfo_label="TEF-PRO"
                      /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -23,7 +25,9 @@ FEATURES             Location/Qualifiers
      CDS             459..1487
                      /product="hygromycin B phosphotransferase"
                      /gene="hph"
+                     /locus_tag="hygromycin B phosphotransferase"
                      /label="hygromycin B phosphotransferase"
+                     /ApEinfo_label="hygromycin B phosphotransferase"
                      /ApEinfo_fwdcolor="pink"
                      /ApEinfo_revcolor="pink"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -31,7 +35,9 @@ FEATURES             Location/Qualifiers
      terminator      1488..1727
                      /product="TEF-TER"
                      /gene="TEF-TER"
+                     /locus_tag="TEF-TER"
                      /label="TEF-TER"
+                     /ApEinfo_label="TEF-TER"
                      /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -39,7 +45,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(2833..3693)
                      /product="AmpR"
                      /gene="AmpR"
+                     /locus_tag="AmpR"
                      /label="AmpR"
+                     /ApEinfo_label="AmpR"
                      /ApEinfo_fwdcolor="pink"
                      /ApEinfo_revcolor="pink"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -114,5 +122,5 @@ ORIGIN
      3961 tctgtaagcg gatgccggga gcagacaagc ccgtcagggc gcgtcagcgg gtgttggcgg
      4021 gtgtcggggc tggcttaact atgcggcatc agagcagatt gtactgagag tgcaccatat
      4081 ggacatattg tcgttagaac gcggctacaa ttaatacata accttatgta tcatacacat
-     4141 acgatttagg tgacactata
+     4141 acgatttagg tgacactata    
 //

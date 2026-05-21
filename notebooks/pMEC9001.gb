@@ -6,8 +6,7 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
-COMMENT     pydna cdseguid=kSu-AcOo1olUXjSc3gnn0bWhezA 2025-02-21T08:29:02
-            
+COMMENT     pydna cdseguid=kSu-AcOo1olUXjSc3gnn0bWhezA 2026-05-21T14:44:18
 FEATURES             Location/Qualifiers
      primer_bind     373..388
                      /label="part_part_part_H"
@@ -16,10 +15,10 @@ FEATURES             Location/Qualifiers
                      "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(3573..3587)
+     primer_bind     complement(join(3588,3573..3587))
                      /label="part_part_part_H"
                      /PCR_conditions="primer
-                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCZJQFATACCTCATCTCTGC
+                     sequence:AGACAAACCGTGGGACGAATTCTTAAGATGCTCGAATACCTCATCTCTGC
                      "
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
