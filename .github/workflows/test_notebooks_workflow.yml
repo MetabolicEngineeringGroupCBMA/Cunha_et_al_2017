@@ -34,6 +34,5 @@ jobs:
 
       - name: Run Jupyter notebook tests
         working-directory: notebooks
-        run: |
-          shopt -s globstar
-          pytest -vvv --import-mode=importlib --current-env --capture=no --nbval **/*.ipynb
+        run: bash test_all_notebooks.sh
+          
