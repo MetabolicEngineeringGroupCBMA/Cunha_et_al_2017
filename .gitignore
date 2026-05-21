@@ -1,3 +1,13 @@
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+# Jupyter internal checkpoints and state
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.virtual_documents/
+.ipynb
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
