@@ -33,6 +33,5 @@ jobs:
           python -m pip install pytest nbval pydna
 
       - name: Run Jupyter notebook tests
-        working-directory: notebooks
         run: bash test_all_notebooks.sh
           
