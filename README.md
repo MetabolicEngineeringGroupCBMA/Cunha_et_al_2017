@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378905.svg)](https://doi.org/10.5281/zenodo.20378905)
 
 This repository contains Jupyter notebooks describing metabolic pathways for Saccharomyces cerevisiae
-using [python](https://www.python.org/) and [pydna](https://github.com/BjornFJohansson/pydna).
+using [python](https://www.python.org/) and [pydna](https://github.com/pydna-group/pydna).
 
 These notebooks and other files accompany the publication:
 
