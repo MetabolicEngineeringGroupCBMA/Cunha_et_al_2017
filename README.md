@@ -32,6 +32,3 @@ If the badge below is green, all tests gave the expected results.
 If you would like to have your own copy of this repository, the best solution is to get a
 Github account and then make your own fork. If you would like to download all files to your
 computer as a zip file, Click [here](https://github.com/BjornFJohansson/Cunha_et_al_2017/archive/master.zip)
-
-Executing these notebooks require [pydna](https://github.com/BjornFJohansson/pydna) (version 3.1.1 or later)
-and [pygenome](https://github.com/BjornFJohansson/pygenome) 3.1.0. or later.
