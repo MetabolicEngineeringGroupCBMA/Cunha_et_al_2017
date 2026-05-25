@@ -13,26 +13,21 @@ These notebooks and other files accompany the publication:
 
 This repository is called "Cunha_et_al_2017" while "Costa_et_al_2017" would have been the correct designation. This repository was first committed to on Jan 30, 2017 before the author order was decided.
 
-The notebooks are the files ending in `.ipynb`. These can be opened in the browser through the nbviewer service
-[here](http://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/blob/master/notebooks/index.ipynb) or directly in Github:
+The notebooks are the files ending in `.ipynb`. These can be viewed in the browser directly.
 
 - [index](notebooks/index.ipynb)
-
 - [pMEC1049](notebooks/pMEC1049.ipynb)
-
 - [pMEC9001-2-3](notebooks/pMEC9001-2-3.ipynb)
 
 The index.ipynb notebook has links to the other notebooks and is the place to start.
 
 Each notebook contain links (usually in the end) to the resulting sequences in Genbank flat file format.
-
 These notebooks are tested using a github action.
 
 This means that the notebook outputs are executed and results compared with previously saved results.
 If the badge below is green, all tests gave the expected results.
 
 [![Test Jupyter Notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml)
-
 
 If you would like to have your own copy of this repository, the best solution is to get a
 Github account and then make your own fork. If you would like to download all files to your
