@@ -1,5 +1,7 @@
 # [Cunha et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28013133)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378905.svg)](https://doi.org/10.5281/zenodo.20378905)
+
 This repository contains Jupyter notebooks describing metabolic pathways for Saccharomyces cerevisiae
 using [python](https://www.python.org/) and [pydna](https://github.com/BjornFJohansson/pydna).
 
