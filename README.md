@@ -14,7 +14,16 @@ The construct were used in the publications listed below:
 
 Romaní, A., Pereira, F., Johansson, B., & Domingues, L. (2015). Metabolic engineering of Saccharomyces cerevisiae ethanol strains PE-2 and CAT-1 for efficient lignocellulosic fermentation. Bioresour. Technol., 179, 150–158. https://doi.org/10.1016/j.biortech.2014.12.020
 
-- [pMEC1049](notebooks/pMEC1049.ipynb)
+# pMEC1049
+
+[pMEC1049](notebooks/pMEC1049.ipynb) is a yeast episomal (YEp) vector carrying the hphMX4 hygromycin resistance marker and expressing the following genes:
+
+- XYL1 (Xylose reductase)
+- XYL2 (Xylitol dehydrogenase)
+- XKS1 (Xylulokinase)
+- TAL1 (Transaldolase)
+
+This vector was used in Romaní et al. 2015 to create D-xylose metabolizing industrial yeast strains based on Saccharomyces cerevisiae CAT-1 and PE-2.
 
 The pMEC1049 pathway is also used in Costa 2017 et al. (below)
 
@@ -29,6 +38,17 @@ Costa, C. E., Romaní, A., Cunha, J. T., Johansson, B., & Domingues, L. (2017). 
 Cunha, J. T., Costa, C. E., Ferraz, L., Romaní, A., Johansson, B., Sá-Correia, I., & Domingues, L. (2018). HAA1 and PRS3 overexpression boosts yeast tolerance towards acetic acid improving xylose or glucose consumption: Unravelling the underlying mechanisms. Appl. Microbiol. Biotechnol., 102(10), 4589–4600. https://doi.org/10.1007/s00253-018-8955-z
 
 - [pMEC9001-2-3](notebooks/pMEC9001-2-3.ipynb)
+
+## pMEC9001, pMEC9002 and pMEC9003
+
+[pMEC9001-2-3](pMEC9001-2-3.ipynb)
+These three vectors are based on the pMEC1049 with additional expression cassettes for [HAA1](http://www.yeastgenome.org/locus/S000006212/overview) or [PRS3](http://www.yeastgenome.org/locus/S000001003/overview) or both:
+
+1. pMEC9001 (pMEC1049 + HAA1)
+2. pMEC9002 (pMEC1049 + PRS3)
+3. pMEC9003 (pMEC1049 + HAA1 + PRS3)
+
+These vectors were used to study the influence of HAA1 and PRS3 on fermentation performance. 
 
 ***
 
