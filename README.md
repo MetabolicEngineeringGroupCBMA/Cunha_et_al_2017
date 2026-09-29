@@ -1,10 +1,13 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378905.svg)](https://doi.org/10.5281/zenodo.20378905)
 
+Code is tested using a github action. This means that the notebook outputs are executed and results compared with previously saved results. If the badge below is green, all tests gave the expected results. The workflow can be triggered manually.
+
+[![Test Jupyter Notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml)
+
 This repository contains Jupyter notebooks and sequence files in [GenBank](https://metabolicengineeringgroupcbma.github.io/Genbank) format.
 The notebooks describe the construction of recombinant metabolic pathways for _Saccharomyces cerevisiae_ using [python](https://www.python.org/) and [pydna](https://github.com/pydna-group/pydna).
 
-The sequence files are produced as a result of the execution of the notebooks. and sequence files are located in the `notebooks` subfolder and have files extensions `.ipynb` and `.gb`, respectively. 
-Both file types can be viewed in the browser directly.
+The sequence files are produced as a result of the execution of the notebooks. and sequence files are located in the `notebooks` subfolder and have files extensions `.ipynb` and `.gb`, respectively. Both file types can be viewed in the browser directly.
 
 Each notebook contain links (usually in the end) to the resulting sequences.
 
@@ -55,11 +58,4 @@ These vectors were used to study the influence of HAA1 and PRS3 on fermentation 
 This repository is called "Cunha.." while "Costa.." would have been the a better designation. 
 This repository was first committed to on Jan 30, 2017 before the final author order was decided.
 
-These notebooks are tested using a github action. This means that the notebook outputs are executed and results 
-compared with previously saved results. If the badge below is green, all tests gave the expected results.
-
-[![Test Jupyter Notebooks](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017/actions/workflows/test_notebooks_workflow.yml)
-
-If you would like to have your own copy of this repository, the best solution is to get a
-Github account and then make your own fork. If you would like to download all files to your
-computer as a zip file, Click [here](https://github.com/BjornFJohansson/Cunha_et_al_2017/archive/master.zip)
+If you would like to have your own copy of this repository, get a Github account and then make your own fork. Download the repository as a zip file, [here](https://github.com/BjornFJohansson/Cunha_et_al_2017/archive/master.zip)
