@@ -6,7 +6,7 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
-COMMENT     pydna cdseguid=u60NZ3j9UWsnkLOue3T5IrZa_DY 2026-05-21T16:16:41
+COMMENT     pydna cdseguid=u60NZ3j9UWsnkLOue3T5IrZa_DY 2026-09-29T11:23:03
 FEATURES             Location/Qualifiers
      primer_bind     433..456
                      /label="167"
